@@ -16,7 +16,7 @@ All the UI interface should be working by now.
 
 - Clone the project to local mac. If you have [`git`](https://git-scm.com/) installed, you can do this by executing the following command:
 
-    $ git clone https://github.com/zxcjerry/Lango.git
+        $ git clone https://github.com/zxcjerry/Lango.git
     
     This will download the repository of samples into the directory
     `Lango`.
