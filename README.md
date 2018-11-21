@@ -9,12 +9,12 @@ All the UI interface should be working by now.
 ## Prerequisites
 - An API key for the Cloud Speech API
 - An OSX machine or emulator
-- [Xcode 8 beta 6][xcode] or later
-- [Cocoapods][cocoapods] version 1.0 or later
+- [Xcode 8 beta 6](https://developer.apple.com/xcode/) or later
+- [Cocoapods](https://cocoapods.org/) version 1.0 or later
 
 ## How to simulate / run it on iPhone
 
-- Clone the project to local mac. If you have [`git`][git] installed, you can do this by executing the following command:
+- Clone the project to local mac. If you have [`git`](https://git-scm.com/) installed, you can do this by executing the following command:
 
     $ git clone https://github.com/zxcjerry/Lango.git
     
