@@ -6,12 +6,23 @@
 
 All the UI interface should be working by now.
 
-Still working on the API part for speech recognition
+## Prerequisites
+- An API key for the Cloud Speech API
+- An OSX machine or emulator
+- [Xcode 8 beta 6][xcode] or later
+- [Cocoapods][cocoapods] version 1.0 or later
 
 ## How to simulate / run it on iPhone
 
-- clone the project to local mac
+- Clone the project to local mac. If you have [`git`][git] installed, you can do this by executing the following command:
 
-- open the project using Xcode
+    $ git clone https://github.com/zxcjerry/Lango.git
+    
+    This will download the repository of samples into the directory
+    `Lango`.
+
+- `cd` into this directory in the repository you just cloned, and run the command `pod install` to prepare all Cocoapods-related dependencies.
+
+-  `open Lango.xcworkspace` to open this project in Xcode. Since we are using Cocoapods, be sure to open the workspace and not Lango.xcodeproj.
 
 - run the simulator of iPhone 8 or plug in an iPhone to download an run
