@@ -7,23 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8157DB4E62D1FFC323AF873E /* Pods_Lango.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B67D8A3C8A62BAE6173561B7 /* Pods_Lango.framework */; };
 		C4A1BF8E219CC9E200CF7529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1BF8D219CC9E200CF7529 /* AppDelegate.swift */; };
-		C4A1BF90219CC9E200CF7529 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1BF8F219CC9E200CF7529 /* FirstViewController.swift */; };
-		C4A1BF92219CC9E200CF7529 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1BF91219CC9E200CF7529 /* SecondViewController.swift */; };
 		C4A1BF95219CC9E200CF7529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A1BF93219CC9E200CF7529 /* Main.storyboard */; };
 		C4A1BF97219CC9E400CF7529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4A1BF96219CC9E400CF7529 /* Assets.xcassets */; };
 		C4A1BF9A219CC9E400CF7529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A1BF98219CC9E400CF7529 /* LaunchScreen.storyboard */; };
+		C4A1BFA4219CCE8A00CF7529 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1BFA3219CCE8A00CF7529 /* ConversationViewController.swift */; };
+		C4A1BFA8219CD00000CF7529 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1BFA7219CD00000CF7529 /* MainViewController.swift */; };
+		C4A1BFAA219CD01D00CF7529 /* PronounciationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1BFA9219CD01D00CF7529 /* PronounciationViewController.swift */; };
+		C4A1BFAC219CD03200CF7529 /* MissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1BFAB219CD03200CF7529 /* MissionViewController.swift */; };
+		C4A1BFAE21A5189A00CF7529 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1BFAD21A5189A00CF7529 /* SecondViewController.swift */; };
+		C4A1BFB121A518A800CF7529 /* SpeechRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A1BFB021A518A700CF7529 /* SpeechRecognitionService.swift */; };
+		C4E904F221A51A62007E06EE /* AudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E904F121A51A62007E06EE /* AudioController.swift */; };
+		C4E904F421A51F5E007E06EE /* googleapis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E904F321A51F5E007E06EE /* googleapis.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B4F2ACA8ED6E7DB8DF8B0C2 /* Pods-Lango.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lango.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lango/Pods-Lango.debug.xcconfig"; sourceTree = "<group>"; };
+		85CEA7A8963F3B9CBC8EAD7C /* Pods-Lango.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lango.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lango/Pods-Lango.release.xcconfig"; sourceTree = "<group>"; };
+		B67D8A3C8A62BAE6173561B7 /* Pods_Lango.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lango.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A1BF8A219CC9E200CF7529 /* Lango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lango.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A1BF8D219CC9E200CF7529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4A1BF8F219CC9E200CF7529 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		C4A1BF91219CC9E200CF7529 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		C4A1BF94219CC9E200CF7529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4A1BF96219CC9E400CF7529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4A1BF99219CC9E400CF7529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4A1BF9B219CC9E400CF7529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4A1BFA3219CCE8A00CF7529 /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		C4A1BFA7219CD00000CF7529 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C4A1BFA9219CD01D00CF7529 /* PronounciationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PronounciationViewController.swift; sourceTree = "<group>"; };
+		C4A1BFAB219CD03200CF7529 /* MissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionViewController.swift; sourceTree = "<group>"; };
+		C4A1BFAD21A5189A00CF7529 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C4A1BFAF21A518A200CF7529 /* Speech-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Speech-Bridging-Header.h"; sourceTree = "<group>"; };
+		C4A1BFB021A518A700CF7529 /* SpeechRecognitionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognitionService.swift; sourceTree = "<group>"; };
+		C4E904F121A51A62007E06EE /* AudioController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioController.swift; sourceTree = "<group>"; };
+		C4E904F321A51F5E007E06EE /* googleapis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = googleapis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E904F421A51F5E007E06EE /* googleapis.framework in Frameworks */,
+				8157DB4E62D1FFC323AF873E /* Pods_Lango.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				C4A1BF8C219CC9E200CF7529 /* Lango */,
 				C4A1BF8B219CC9E200CF7529 /* Products */,
+				D73B0C4C0FE2EA07F72D427B /* Pods */,
+				D7C5ABE8FA4717A1A767EBB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +78,38 @@
 			isa = PBXGroup;
 			children = (
 				C4A1BF8D219CC9E200CF7529 /* AppDelegate.swift */,
-				C4A1BF8F219CC9E200CF7529 /* FirstViewController.swift */,
-				C4A1BF91219CC9E200CF7529 /* SecondViewController.swift */,
+				C4A1BFA7219CD00000CF7529 /* MainViewController.swift */,
+				C4A1BFA9219CD01D00CF7529 /* PronounciationViewController.swift */,
+				C4E904F121A51A62007E06EE /* AudioController.swift */,
+				C4A1BFB021A518A700CF7529 /* SpeechRecognitionService.swift */,
+				C4A1BFAD21A5189A00CF7529 /* SecondViewController.swift */,
+				C4A1BFAF21A518A200CF7529 /* Speech-Bridging-Header.h */,
+				C4A1BFAB219CD03200CF7529 /* MissionViewController.swift */,
+				C4A1BFA3219CCE8A00CF7529 /* ConversationViewController.swift */,
 				C4A1BF93219CC9E200CF7529 /* Main.storyboard */,
 				C4A1BF96219CC9E400CF7529 /* Assets.xcassets */,
 				C4A1BF98219CC9E400CF7529 /* LaunchScreen.storyboard */,
 				C4A1BF9B219CC9E400CF7529 /* Info.plist */,
 			);
 			path = Lango;
+			sourceTree = "<group>";
+		};
+		D73B0C4C0FE2EA07F72D427B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B4F2ACA8ED6E7DB8DF8B0C2 /* Pods-Lango.debug.xcconfig */,
+				85CEA7A8963F3B9CBC8EAD7C /* Pods-Lango.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7C5ABE8FA4717A1A767EBB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4E904F321A51F5E007E06EE /* googleapis.framework */,
+				B67D8A3C8A62BAE6173561B7 /* Pods_Lango.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4A1BF9E219CC9E400CF7529 /* Build configuration list for PBXNativeTarget "Lango" */;
 			buildPhases = (
+				D83844AFF9EFB26E1157BBE9 /* [CP] Check Pods Manifest.lock */,
 				C4A1BF86219CC9E200CF7529 /* Sources */,
 				C4A1BF87219CC9E200CF7529 /* Frameworks */,
 				C4A1BF88219CC9E200CF7529 /* Resources */,
+				9FB8A62FD34FDC0A364E45FA /* [CP] Embed Pods Frameworks */,
+				C6CC73F1DBB032F3B34C626D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,14 +181,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9FB8A62FD34FDC0A364E45FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lango/Pods-Lango-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/googleapis/googleapis.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/googleapis.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lango/Pods-Lango-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6CC73F1DBB032F3B34C626D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lango/Pods-Lango-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D83844AFF9EFB26E1157BBE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lango-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C4A1BF86219CC9E200CF7529 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4A1BF92219CC9E200CF7529 /* SecondViewController.swift in Sources */,
+				C4A1BFAE21A5189A00CF7529 /* SecondViewController.swift in Sources */,
+				C4A1BFAA219CD01D00CF7529 /* PronounciationViewController.swift in Sources */,
+				C4A1BFB121A518A800CF7529 /* SpeechRecognitionService.swift in Sources */,
+				C4A1BFA8219CD00000CF7529 /* MainViewController.swift in Sources */,
 				C4A1BF8E219CC9E200CF7529 /* AppDelegate.swift in Sources */,
-				C4A1BF90219CC9E200CF7529 /* FirstViewController.swift in Sources */,
+				C4A1BFA4219CCE8A00CF7529 /* ConversationViewController.swift in Sources */,
+				C4E904F221A51A62007E06EE /* AudioController.swift in Sources */,
+				C4A1BFAC219CD03200CF7529 /* MissionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,11 +405,13 @@
 		};
 		C4A1BF9F219CC9E400CF7529 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4F2ACA8ED6E7DB8DF8B0C2 /* Pods-Lango.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PXXB58294G;
 				INFOPLIST_FILE = Lango/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,11 +425,13 @@
 		};
 		C4A1BFA0219CC9E400CF7529 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CEA7A8963F3B9CBC8EAD7C /* Pods-Lango.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PXXB58294G;
 				INFOPLIST_FILE = Lango/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

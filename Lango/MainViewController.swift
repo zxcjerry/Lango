@@ -26,5 +26,22 @@ class MainViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    // MARK: - Button Action
+    @IBAction func JumpConversation(_ sender: UIButton) {
+        self.tabBarController?.selectedIndex = 1
+    }
+    
+    @IBAction func JumpProun(_ sender: UIButton) {
+        self.tabBarController?.selectedIndex = 2
+    }
+    
+    @IBAction func JumpMissions(_ sender: UIButton) {
+        self.tabBarController?.selectedIndex = 3
+    }
+    
+    @IBAction func OpenMenu(_ sender: Any) {
+        // TODO:
+    }
+    
 }
