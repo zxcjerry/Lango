@@ -21,7 +21,7 @@ All the UI interface should be working by now.
     This will download the repository of samples into the directory
     `Lango`.
 
-- `cd` into this directory in the repository you just cloned, and run the command `pod install` to prepare all Cocoapods-related dependencies.
+- `cd` into this directory in the repository you just cloned, and run the command `./INTALL-COCOAPODS` to prepare all Cocoapods-related dependencies.
 
 -  `open Lango.xcworkspace` to open this project in Xcode. Since we are using Cocoapods, be sure to open the workspace and not Lango.xcodeproj.
 
